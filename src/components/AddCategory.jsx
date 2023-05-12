@@ -24,6 +24,7 @@ export const AddCategory = ({ onNewCategory }) => {
         value={inputValue}
         onChange={onInputChange}
       />
+      <input type="password" id="pwd" name="pwd"></input>
     </form>
   );
 };
